@@ -1,0 +1,34 @@
+{
+  "name": "GSA",
+  "type": "wordpress-plugin",
+  "description": "Apple Pay add-on for GiveWP",
+  "license": "GNU GPL",
+  "authors": [
+    {
+      "name": "Tanner Moushey",
+      "email": "tanner@iwitnessdesign.com",
+      "homepage": "https://iwitnessdesign.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Topher DeRosia",
+      "email": "topher@iwitnessdesign.com",
+      "homepage": "https://iwitnessdesign.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Dustin Phillips",
+      "email": "dustin@iwitnessdesign.com",
+      "homepage": "https://iwitnessdesign.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "GSA\\": "inc"
+    }
+  }
+}
